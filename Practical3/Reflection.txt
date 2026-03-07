@@ -1,0 +1,4 @@
+Reflection for Git&GitHub Practical3:
+1. The basic git commands (add/commit/log) were easy to operate.
+2. I met difficulties when rolling back the version with git revert, and I didn't know how to exit the vim editor at first.
+3. I want to know how to resolve conflicts when merging branches.
