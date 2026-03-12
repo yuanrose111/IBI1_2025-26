@@ -24,7 +24,7 @@ cr = 75                # Creatinine concentration in μmol/l
 is_input_valid = True  # Flag to check if all inputs are valid
 error_message = "Invalid input(s): "  # Store error details for invalid inputs
 
-# Step 3: Perform input validation (check each rule one by one)
+# Step 3: Perform input validation 
 # Validate age
 if age >= 100:
     is_input_valid = False
@@ -52,5 +52,5 @@ if is_input_valid:
     # Print the result with 2 decimal places for readability
     print(f"Valid Inputs → Creatinine Clearance (CrCl): {crcl:.2f} ml/min")
 else:
-    # Print only the error message (remove trailing semicolon for clean output)
+    # Print only the error message 
     print(error_message.rstrip("; "))
