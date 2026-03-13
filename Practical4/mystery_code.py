@@ -3,7 +3,6 @@
 # then uses a while loop to generate 11 random integers between 1 and 10, sums these integers, and prints the total sum.
 
 # Import the randint function from the random library to generate random integers within a specified range
-# Example: randint(1,5) returns a random integer between 1 and 5 (inclusive)
 from random import randint  
 
 # Import the ceil function from the math library (this function is not used in the code)
