@@ -15,7 +15,7 @@ total_students = 91
 current_infected = initial_infected  
 days = 0 #initial is 0
 print("daily changes in IBI1 class infected count：")
-print("-" * 40)
+
 
 # while：calculate when infected don not finish
 while current_infected < total_students:
@@ -25,5 +25,5 @@ while current_infected < total_students:
 
 
 print(f"at {days} day：{current_infected:.1f} people infected （all people (91) in the class have been infected)")
-print("-" * 40)
+
 print(f"spend ：{days} day to infected all the people")
