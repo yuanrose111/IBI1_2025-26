@@ -4,7 +4,7 @@ a = 5.08  # 2004 population of scotland
 b = 5.33  # 2014 population of scotland
 c = 5.55  # 2024 population of scotland
 
-# calculate the change of population， store in d/e（文档指定变量名）
+# calculate the change of population， store in d/e
 d = b - a  # 2004-2014 population change
 e = c - b  # 2014-2024 population change
 
