@@ -53,7 +53,6 @@ plt.pie(
     labels=labels,
     colors=colors,
     autopct='%1.1f%%',  # Show percentage with 1 decimal place
-    shadow=True,        # Add shadow for 3D effect
     startangle=90       # Start pie chart at 90 degrees (top position)
 )
 
