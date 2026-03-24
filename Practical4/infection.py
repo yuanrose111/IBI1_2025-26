@@ -4,7 +4,6 @@
 # 4. loop operation：print the number of infected people onn the current day --calculate the number of infected people on the next day --add 1 to the number of days
 # 5. After the cycle ends : print the final number of infected individuals(≥91) and the total number of infected days
 
-# define basic variables（example)
 initial_infected = 5
 growth_rate = 0.4
 total_students = 91

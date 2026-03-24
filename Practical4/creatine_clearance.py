@@ -15,10 +15,10 @@
 #    - If invalid: Print the error message with variables that need correction
 
 # Step 1: Define input variables (modify these values for different test cases)
-age = 42               # Age in years
-weight = 68            # Weight in kilograms
-gender = "female"      # Gender: only 'male' or 'female' is valid
-cr = 75                # Creatinine concentration in μmol/l
+age = 42               
+weight = 68            
+gender = "female"      
+cr = 75                
 
 # Step 2: Initialize validation variables
 is_input_valid = True  # Flag to check if all inputs are valid
@@ -49,8 +49,7 @@ if is_input_valid:
     # Adjust for female (multiply by 0.85)
     if gender == "female":
         crcl = crcl * 0.85
-    # Print the result with 2 decimal places for readability
+    
     print(f"Valid Inputs → Creatinine Clearance (CrCl): {crcl:.2f} ml/min")
 else:
-    # Print only the error message 
     print(error_message.rstrip("; "))
