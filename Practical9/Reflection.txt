@@ -1,0 +1,6 @@
+# Reflection
+This practical is about modelling infections with SIR model. I learned how to use Python to write code to simulate the spread of disease. I made three models: basic SIR, SIR with vaccination, and spatial SIR.
+
+When I wrote the code, I met some errors, like negative numbers. After fixing them, the code can run successfully. I found that every time I run the code, the result is different, because the model uses random numbers. So this is a stochastic model.
+
+Through this practical, I understand how infection and recovery work. Vaccination can reduce infected people, and spatial model shows disease spreads from neighbor to neighbor. This practical is useful and helps me know more about disease models.
