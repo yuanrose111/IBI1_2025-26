@@ -1,0 +1,5 @@
+I did not include a comment explaining whether variable d is greater than variable e in my variables.py file, which resulted in a deduction of 1 mark.
+I have now added a clear comment in the code that explicitly states the comparison result:
+# Compare variables d and e: d (10) is greater than e (5)
+print("Is d greater than e?", d > e)
+This comment explains the relationship between the two variables and satisfies the requirement.
