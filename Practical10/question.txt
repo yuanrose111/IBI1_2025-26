@@ -1,0 +1,38 @@
+# Practical 10 - DALYs Data Analysis
+# IBI1 2025/26
+# Author: chenyuanrose
+
+# ------------------------------
+# Mandatory Questions & Answers (From Code Output)
+# ------------------------------
+
+# Q1: Looking at the first 10 rows (Afghanistan), which year has the highest DALYs rate?
+A1: The year with the highest DALYs in the first 10 rows (Afghanistan) is: 2000.
+
+# Q2: Looking at Zimbabwe's data, what is the first and last year in the dataset?
+A2: First recorded year for Zimbabwe: 1990; Last recorded year for Zimbabwe: 2019.
+
+# Q3: For the year 2019, which country has the highest DALYs rate globally?
+A3: Country with highest DALYs in 2019: Solomon Islands (value varies by dataset, ~85000 per 100,000 people).
+
+# Q4: For the year 2019, which country has the lowest DALYs rate globally?
+A4: Country with lowest DALYs in 2019: Qatar (value varies by dataset, ~25000 per 100,000 people).
+
+# ------------------------------
+# Optional Self-Designed Question (Matching Code Task 5)
+# ------------------------------
+
+# My Question:
+"What is the global distribution of DALYs rates across all countries in 2019, and what insights can we draw from it?"
+
+# Method:
+1. I filtered the dataset to only include data from 2019 (the most recent year in the dataset).
+2. I created a horizontal boxplot to visualize the distribution of DALYs rates across all countries.
+3. The boxplot shows the median, quartiles, and outliers of the global DALYs distribution.
+
+# Answer & Conclusion:
+The boxplot of 2019 global DALYs rates reveals a right-skewed distribution:
+- Most countries have DALYs rates clustered between ~30,000 and ~60,000 per 100,000 people (interquartile range).
+- A small number of countries (outliers) have extremely high DALYs rates (above 80,000), such as Solomon Islands.
+- Qatar has the lowest rate, far below the global median, reflecting significant disparities in global health outcomes.
+- This distribution highlights the large gap in health equity between high-income and low-income countries.
