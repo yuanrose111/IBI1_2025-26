@@ -1,4 +1,13 @@
-def calculate_protein_mass(sequence): 
+# Practical 8 - Task 1: Protein Mass Predictor
+# IBI1 2025/26
+
+def calculate_protein_mass(sequence):
+    """
+    Calculate monoisotopic mass of a protein in atomic mass units (amu).
+    Input: amino acid sequence (string)
+    Return: total mass (float)
+    Error: raise ValueError for invalid amino acids
+    """
     aa_mass = {
         'G': 57.02,
         'A': 71.04,
@@ -23,16 +32,17 @@ def calculate_protein_mass(sequence):
     }
 
     total_mass = 0.0
-
     for aa in sequence:
         if aa not in aa_mass:
-            raise ValueError(f"Invalid amino acid symbol found: {aa}")
+            raise ValueError(f"Error: Unknown amino acid '{aa}'")
         total_mass += aa_mass[aa]
-
     return total_mass
 
+
+# Example usage (required)
 if __name__ == "__main__":
-    test_sequence = "GASPV"
-    mass = calculate_protein_mass(test_sequence)
-    print(f"Sequence: {test_sequence}")
-    print(f"Total protein mass: {mass:.2f} amu")
+    print("===== Protein Mass Calculation Example =====")
+    test_seq = "GAS"
+    mass = calculate_protein_mass(test_seq)
+    print(f"Sequence: {test_seq}")
+    print(f"Total mass: {mass:.2f} amu")
