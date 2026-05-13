@@ -1,0 +1,19 @@
+This practical compared protein sequences using online BLAST and a custom Python non‑gapped alignment program with the BLOSUM62 matrix.
+The human DLX5 protein (UniProt ID: P56178) is 289 amino acids long and localised to the nucleus. A BLAST search against Eutheria returned 250 hits, with identities ranging from 52.3% to 100%.
+
+Three Python alignments were performed:
+
+Human DLX5 vs. Mouse DLX5 (UniProt ID: P70396)
+Percentage identity: 96.54% (consistent with the 96.5% reported in public databases)
+
+Human DLX5 vs. Random sequence
+Total BLOSUM62 score: -259
+Percentage identity: 5.19%
+
+Mouse DLX5 vs. Random sequence
+Total BLOSUM62 score: -269
+Percentage identity: 4.84%
+
+The human–mouse pair yielded a very high percentage identity of 96.54%, confirming their close evolutionary relationship. 
+In contrast, both comparisons involving the random sequence produced very low scores and identities near 5%, which is the expected background similarity for unrelated proteins. 
+These results clearly demonstrate that human and mouse DLX5 are evolutionarily closely related homologous proteins, while random sequences show no meaningful similarity.
